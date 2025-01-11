@@ -3,16 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>My Personal Blog</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    header { background: #f4f4f4; padding: 10px; text-align: center; }
+    /* Basic Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      margin: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    .post {
+      margin-bottom: 30px;
+    }
+    .post h2 {
+      color: #4CAF50;
+    }
+    .post p {
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My WORDLD</h1>
+    <h1>Welcome to My Blog</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#posts">Posts</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
-  <p>This is my first website!</p>
-</body>
-</html>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I'm [Your Name], a passionate writer and enthusiast about [topics you love]. This is my personal blog where I share my thoughts, ideas, and experiences. Stay tuned!</p>
+    </section>
+
+    <section id="posts">
+      <h2>Latest Posts</h2>
+
+      <!-- Example Post -->
+      <article class="post">
+        <h2>My First Blog Post</h2>
+        <p><em>Published on January 1, 2025</em></p>
+        <p>This is my very first post. I'm excited to start this blogging journey and share my thoughts with the world. Stay tuned for more updates!</p>
+      </article>
+
+      <!-- Add more posts as needed -->
+      <artic
